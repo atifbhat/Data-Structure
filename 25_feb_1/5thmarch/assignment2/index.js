@@ -62,6 +62,7 @@ var board = [
 ];
 
 var res = gameOfLife(board);
+
 for (let i = 0; i < board.length; i++) {
     for (let j = 0; j < board.length; j++) {
         document.write(board[i][j]);
